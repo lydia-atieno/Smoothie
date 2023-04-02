@@ -116,11 +116,11 @@ html{
     /*color: rgb(255, 255, 255);*/
     color: whitesmoke;
     font-weight: 500;
-    max-width: 62%;
+    max-width: 64%;
     margin-left: px;
 }
 #about button{
-    margin-top: 15px;
+    margin-top: 13px;
     background-color: yellow;
     border: 50px yellow;
 }
