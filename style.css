@@ -86,7 +86,7 @@ html{
     font-weight: 500;
 }
 #about{
-    background-image: url(https://github.com/lydia-atieno/Smoothie/blob/master/img/a.jpg?raw=true;
+    background-image: url(https://github.com/lydia-atieno/Smoothie/blob/master/img/a.jpg?raw=true);
     background-size: cover;
     background-position: center, center;
     position: relative;
@@ -125,7 +125,7 @@ html{
     border: 50px yellow;
 }
 #menu{
-    background-image: url(https://github.com/lydia-atieno/Smoothie/blob/master/img/f.jpg?raw=true;
+    background-image: url(https://github.com/lydia-atieno/Smoothie/blob/master/img/f.jpg?raw=true);
     background-size: cover;
     background-position: center, center;
     position: relative;
@@ -156,7 +156,7 @@ html{
 }
 
 #testimony{
-    background-image: url(https://github.com/lydia-atieno/Smoothie/blob/master/img/k.jpg?raw=true;
+    background-image: url(https://github.com/lydia-atieno/Smoothie/blob/master/img/k.jpg?raw=true);
     background-size: cover;
     background-position: center, center;
     position: relative;
