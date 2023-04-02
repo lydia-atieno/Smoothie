@@ -37,7 +37,7 @@ html{
 #header ul{
     display: flex;
     list-style: none;
-    margin-left: px;
+    margin-left: 3px;
     margin-bottom: px;
     position: absolute;
     z-index: 1;
