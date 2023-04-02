@@ -1,0 +1,401 @@
+
+
+
+html{
+  
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+}
+html{
+    background-color: ;
+}
+#header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    z-index: 1000;
+}
+#header .header{
+    height: 10vh;
+}
+
+#header ul{
+    display: flex;
+    list-style: none;
+    margin-left: px;
+    margin-bottom: px;
+    position: absolute;
+    z-index: 1;
+}
+#header ul li h2{
+    margin-right: 5px;
+    margin-left: 10px;
+    color: yellow;
+    font-weight: 500;
+}
+#header ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 500;
+}
+#title .title{
+    height: 55vh;
+}
+
+#title{
+    background-image: url(file:///C:/Users/user/Desktop/Smoothie/img/i.jpg);
+    background-size: cover;
+    background-position: center, center;
+    position: relative;
+    border-style: ;
+    z-index: 1;
+    border-radius: ;
+    
+}
+#title::after{
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: ;
+    z-index: -1;
+}
+#title h1{
+    color: yellow;
+    max-width: 20%;
+    font-size: 3rem;
+    margin-right: 85px;
+    font-weight: 500;
+}
+#about{
+    background-image: url(file:///C:/Users/user/Desktop/Smoothie/img/a.jpg);
+    background-size: cover;
+    background-position: center, center;
+    position: relative;
+    z-index: 1;
+}
+#about::after{
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+
+#about .container{
+   flex-direction: column;
+}
+#about h1{
+    color: yellow;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+#about p{
+    /*color: rgb(255, 255, 255);*/
+    color: whitesmoke;
+    font-weight: 500;
+    max-width: 50%;
+    margin-left: px;
+}
+#about button{
+    margin-top: 15px;
+    background-color: yellow;
+    border: 50px yellow;
+}
+#menu{
+    background-image: url(file:///C:/Users/user/Desktop/Smoothie/img/f.jpg);
+    background-size: cover;
+    background-position: center, center;
+    position: relative;
+    z-index: 1;
+}
+#menu::after{
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .4;
+    position: absolute;
+    z-index: -1;
+}
+#menu .container{
+    flex-direction: column;
+}
+#menu h1{
+    color: yellow;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+#menu li{
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+#testimony{
+    background-image: url(file:///C:/Users/user/Desktop/Smoothie/img/k.jpg);
+    background-size: cover;
+    background-position: center, center;
+    position: relative;
+    z-index: 1;
+       
+}
+#testimony .testimony{
+    height: 80vh;
+}
+#testimony::after{
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+#testimony .container{
+    flex-direction: column;
+}
+#testimony img{
+    border-radius: 50%;
+}
+#testimony h1{
+    color: yellow;
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#testimony .test span{
+    color: yellow;
+    margin-top: 5px;
+    font-weight: 500;
+}
+#testimony .test1 span{
+    color: yellow;
+    margin-top: 5px;
+    font-weight: 500;
+}
+#testimony p{
+    color: rgb(255, 243, 243);
+    display: flex;
+    flex-direction: column;
+    max-width: 153px;
+    
+
+}
+#testimony .test{
+    display: flex;
+    margin-bottom: 20px;
+}
+#testimony .test1{
+    display: flex;
+}
+#gallery{
+    background-image: url(file:///C:/Users/user/Desktop/Smoothie/img/c.jpg);
+    background-size: cover;
+    background-position: center, center;
+    position: relative;
+    z-index: 1;
+}
+#gallery .gallery{
+    min-height: 85vh;
+}
+#gallery::after{
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: .6;
+    z-index: -1;
+}
+#gallery .container{
+    flex-direction: column;
+    height: 80vh;
+}
+#gallery h1{
+    color: yellow;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#gallery h2{
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+#footer .footer{
+    height: 17vh;
+    background-color: black;
+}
+#footer .container{
+    flex-direction: column;
+}
+#footer h1{
+    font-size: 1rem;
+    color: whitesmoke;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#footer h1 span{
+    color: yellow;
+}
+#footer p{
+    font-size: 0.7rem;
+    color: whitesmoke;
+    font-weight: 500;
+}
+#bottom .bottom{
+    height: 10vh;
+}
+#bottom{
+    background-image: url(file:///C:/Users/user/Desktop/Smoothie/img/2.jpg);
+    background-size: cover;
+    background-position: center, center;
+    position: relative;
+    z-index: 1;
+}
+#bottom::after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#bottom p{
+    color: yellow;
+    font-size: .7rem;
+    margin-right: 20px;
+    font-weight: 500;
+}
+#bottom h3{
+    color: yellow;
+    font-weight: 500;
+    font-size: .6rem;
+}
+/*Media Query For Desktop*/
+@media only screen and (min-width: 1200px){
+    #header ul li{
+        font-size: 1.7rem;
+    }
+    #header ul li a{
+        margin-left: 130px;
+        margin-right: 50px;
+    }
+    #header ul li h2{
+        color: yellow;
+        margin-left: px;
+    }
+    #about .about{
+        height: 60vh;
+    }
+    #about .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #about h1{
+        font-size: 2rem;
+    }
+    #about p{
+        font-size: 1.7rem;
+        align-items: center;
+        justify-content: center;
+        margin-left: px;
+        max-width: 50%;
+    }
+    #about button{
+        font-size: 1rem;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    #title .title{
+        height: 80vh;
+    }
+    #title h1{
+        font-size: 4rem;
+        align-items: center;
+        justify-content: center;
+        max-width: max-content;
+        margin-left: 50px;
+    }
+    #menu .menu{
+        height: 70vh;
+    }
+    #menu h1{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    #menu li{
+        font-size: 1.5rem;
+        list-style: circle;
+    }
+    #testimony .testimony{
+        height: 80vh;
+    }
+    #testimony h1{
+        font-size: 2rem;
+    }
+    #testimony p{
+        font-size: 1.7rem;
+        max-width: 40%;
+        align-items: ;
+        justify-content: ;
+        margin-left: 100px;
+    }
+    #testimony .test p{
+        margin-top: 10px;
+    }
+    #testimony .test1 p{
+        margin-top: 10px;
+    }
+    #gallery h1{
+        font-size: 2rem;
+    }
+    #bottom p{
+        font-size: 1.2rem;
+    }
+    #bottom h3{
+        font-size: 1.2rem;
+    }
+    #footer .footer{
+        height: 26vh;
+    }
+    #footer h1{
+        font-size: 1.8rem;
+    }
+    #footer p{
+        font-size: 1.3rem;
+    }
+}
