@@ -262,7 +262,7 @@ html{
 }
 #footer h1{
     font-size: 1rem;
-    color: whitesmoke;
+    color: lightgreen;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -271,7 +271,7 @@ html{
 }
 #footer p{
     font-size: 0.7rem;
-    color: whitesmoke;
+    color:lightgreen;
     font-weight: 500;
 }
 #bottom .bottom{
